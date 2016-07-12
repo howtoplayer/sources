@@ -1,3 +1,9 @@
 [submodule "theme"]
 	path = theme
 	url = git@github.com:howtoplayer/howtoplayer_theme.git
+[submodule "content"]
+	path = content
+	url = git@github.com:howtoplayer/content.git
+[submodule "howtoplayer.github.io"]
+	path = howtoplayer.github.io
+	url = git@github.com:howtoplayer/howtoplayer.github.io
