@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import os
 
 AUTHOR = 'HowToPlayER'
 SITENAME = 'HowToPlayER'
@@ -30,6 +31,10 @@ SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = False
+THEME = os.path.join(
+    os.path.abspath(os.path.dirname(__file__)),
+    'theme'
+)
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
