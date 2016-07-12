@@ -31,10 +31,14 @@ SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = False
+ROOT = os.path.abspath(os.path.dirname(__file__))
 THEME = os.path.join(
-    os.path.abspath(os.path.dirname(__file__)),
-    'theme'
+    ROOT, 'theme'
 )
+
+# TEMPLATE_PAGES = {
+#     os.path.join(THEME, '')
+# }
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
